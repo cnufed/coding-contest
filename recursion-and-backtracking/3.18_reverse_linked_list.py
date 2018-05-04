@@ -1,4 +1,3 @@
-
 class LinkedListNode:
     data = None
     next = None
@@ -11,15 +10,13 @@ class LinkedListNode:
         self.next = next
 
 
-
-
 linked_list = LinkedListNode(1, None)
 start_node = linked_list
 
-temp_node = LinkedListNode(2,None)
+temp_node = LinkedListNode(2, None)
 linked_list.set_next(temp_node)
 linked_list = temp_node
-temp_node = LinkedListNode(3,None)
+temp_node = LinkedListNode(3, None)
 linked_list.set_next(temp_node)
 
 
@@ -54,5 +51,3 @@ def reverse_linked_list(linked_list: LinkedListNode):
 
 
 print_linked_list(reverse_linked_list(start_node))
-
-
